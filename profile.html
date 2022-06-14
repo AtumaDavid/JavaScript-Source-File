@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      // var age = 50
+
+      // if (age == 40) {
+      //     document.write('this answer is correct')
+      // }
+      // else
+      //     document.write('wrong answer')
+
+      var name = "Daniel";
+
+      if (name == "Daniel") {
+        document.write("My name is Daniel");
+      } else if (name == "John") {
+        document.write("my name is Jonn");
+      } else if (name == "Peter") {
+        document.write("my name is Peter");
+      } else document.write("Name not found");
+    </script>
+
+    <script>
+      var name = "John";
+      switch (name) {
+        case "daniel":
+          document.write("my name is Daniel");
+          break;
+        case "John":
+          document.write("my name is John");
+          break;
+        case "peter":
+          document.write("my name is peter");
+          break;
+        default:
+          document.write("My name i not here");
+          break;
+      }
+    </script>
+
+    <div>
+      <p><b>First Name: </b><i id="fn"></i></p>
+      <p><b>Last Name: </b><i id="ln"></i></p>
+      <p><b>Age: </b><i id="age"></i></p>
+      <p><b>School: </b><i id="sch"></i></p>
+    </div>
+    <hr />
+
+    <div>
+      <p><b>First Name: </b><i id="fn2"></i></p>
+      <p><b>Last Name: </b><i id="ln2"></i></p>
+      <p><b>Age: </b><i id="age2"></i></p>
+      <p><b>School: </b><i id="sch2"></i></p>
+    </div>
+
+    <div id="date"></div>
+
+    <!-- <div id="hide">
+
+    </div> -->
+
+    <div>
+      <button onclick="dateFunction()">The time is?</button>
+      <button onclick="endFunction()">Hide</button>
+    </div>
+
+    <br />
+    <br />
+
+    <script src="/profile.js"></script>
+  </body>
+</html>
